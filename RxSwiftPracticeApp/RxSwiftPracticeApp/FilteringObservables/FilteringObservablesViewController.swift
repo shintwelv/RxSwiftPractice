@@ -11,7 +11,9 @@ class FilteringObservablesViewController: ButtonListViewController {
     
     override var buttons: [(String, Selector)] {
         get {
-            []
+            [
+                ("Debounce", #selector(routeToDebounceVC))
+            ]
         }
     }
     
@@ -19,5 +21,10 @@ class FilteringObservablesViewController: ButtonListViewController {
         super.viewDidLoad()
         
         self.navigationItem.title = "Filtering Observables"
+    }
+    
+    @objc private func routeToDebounceVC(_ button: UIButton) {
+        let vc = DebounceViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
