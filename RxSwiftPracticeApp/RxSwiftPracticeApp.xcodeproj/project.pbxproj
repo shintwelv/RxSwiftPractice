@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED3C0B032B54FD6E00368095 /* FilteringObservablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C0B022B54FD6E00368095 /* FilteringObservablesViewController.swift */; };
 		ED3C0B052B54FDDB00368095 /* ButtonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3C0B042B54FDDB00368095 /* ButtonListViewController.swift */; };
 		ED583E2C2B54D37400F38B9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED583E2B2B54D37400F38B9A /* AppDelegate.swift */; };
 		ED583E2E2B54D37400F38B9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED583E2D2B54D37400F38B9A /* SceneDelegate.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED3C0B022B54FD6E00368095 /* FilteringObservablesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteringObservablesViewController.swift; sourceTree = "<group>"; };
 		ED3C0B042B54FDDB00368095 /* ButtonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonListViewController.swift; sourceTree = "<group>"; };
 		ED583E282B54D37400F38B9A /* RxSwiftPracticeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftPracticeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED583E2B2B54D37400F38B9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED3C0B012B54FD5900368095 /* FilteringObservables */ = {
+			isa = PBXGroup;
+			children = (
+				ED3C0B022B54FD6E00368095 /* FilteringObservablesViewController.swift */,
+			);
+			path = FilteringObservables;
+			sourceTree = "<group>";
+		};
 		ED583E1F2B54D37400F38B9A = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +74,7 @@
 		ED583E2A2B54D37400F38B9A /* RxSwiftPracticeApp */ = {
 			isa = PBXGroup;
 			children = (
+				ED3C0B012B54FD5900368095 /* FilteringObservables */,
 				ED583E2B2B54D37400F38B9A /* AppDelegate.swift */,
 				ED583E2D2B54D37400F38B9A /* SceneDelegate.swift */,
 				ED583E482B54D43C00F38B9A /* MainViewController.swift */,
@@ -157,6 +168,7 @@
 				ED583E492B54D43C00F38B9A /* MainViewController.swift in Sources */,
 				ED3C0B052B54FDDB00368095 /* ButtonListViewController.swift in Sources */,
 				ED583E2C2B54D37400F38B9A /* AppDelegate.swift in Sources */,
+				ED3C0B032B54FD6E00368095 /* FilteringObservablesViewController.swift in Sources */,
 				ED583E2E2B54D37400F38B9A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
