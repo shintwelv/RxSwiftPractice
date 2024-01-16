@@ -17,6 +17,7 @@ class FilteringObservablesViewController: ButtonListViewController {
                 ("DistinctUntilChanged", #selector(routeToDistinctUntilChanged)),
                 ("ElementAt", #selector(routeToElementAt)),
                 ("Filter", #selector(routeToFilter)),
+                ("Skip", #selector(routeToSkip)),
             ]
         }
     }
@@ -49,6 +50,11 @@ class FilteringObservablesViewController: ButtonListViewController {
     
     @objc private func routeToFilter(_ button: UIButton) {
         let vc = FilterViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func routeToSkip(_ button: UIButton) {
+        let vc = SkipViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

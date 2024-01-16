@@ -14,6 +14,7 @@
 		ED3D2D4B2B56082700B34E72 /* DistinctUntilChangedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3D2D4A2B56082700B34E72 /* DistinctUntilChangedViewController.swift */; };
 		ED3D2D4D2B560CBA00B34E72 /* ElementAtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3D2D4C2B560CBA00B34E72 /* ElementAtViewController.swift */; };
 		ED3D2D4F2B560EBD00B34E72 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3D2D4E2B560EBD00B34E72 /* FilterViewController.swift */; };
+		ED3D2D512B5610FC00B34E72 /* SkipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3D2D502B5610FC00B34E72 /* SkipViewController.swift */; };
 		ED583E2C2B54D37400F38B9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED583E2B2B54D37400F38B9A /* AppDelegate.swift */; };
 		ED583E2E2B54D37400F38B9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED583E2D2B54D37400F38B9A /* SceneDelegate.swift */; };
 		ED583E352B54D37500F38B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED583E342B54D37500F38B9A /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		ED3D2D4A2B56082700B34E72 /* DistinctUntilChangedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistinctUntilChangedViewController.swift; sourceTree = "<group>"; };
 		ED3D2D4C2B560CBA00B34E72 /* ElementAtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementAtViewController.swift; sourceTree = "<group>"; };
 		ED3D2D4E2B560EBD00B34E72 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		ED3D2D502B5610FC00B34E72 /* SkipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkipViewController.swift; sourceTree = "<group>"; };
 		ED583E282B54D37400F38B9A /* RxSwiftPracticeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftPracticeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED583E2B2B54D37400F38B9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED583E2D2B54D37400F38B9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				ED3D2D4A2B56082700B34E72 /* DistinctUntilChangedViewController.swift */,
 				ED3D2D4C2B560CBA00B34E72 /* ElementAtViewController.swift */,
 				ED3D2D4E2B560EBD00B34E72 /* FilterViewController.swift */,
+				ED3D2D502B5610FC00B34E72 /* SkipViewController.swift */,
 			);
 			path = FilteringObservables;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED3C0B092B55189B00368095 /* ThrottleViewController.swift in Sources */,
+				ED3D2D512B5610FC00B34E72 /* SkipViewController.swift in Sources */,
 				ED583E492B54D43C00F38B9A /* MainViewController.swift in Sources */,
 				ED3D2D4B2B56082700B34E72 /* DistinctUntilChangedViewController.swift in Sources */,
 				ED3C0B052B54FDDB00368095 /* ButtonListViewController.swift in Sources */,
