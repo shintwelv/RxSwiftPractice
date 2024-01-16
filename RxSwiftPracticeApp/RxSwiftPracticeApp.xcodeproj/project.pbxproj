@@ -35,6 +35,7 @@
 		ED6FE68F2B56540E005F2500 /* FlatMapLatestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE68E2B56540E005F2500 /* FlatMapLatestViewController.swift */; };
 		ED6FE6912B5654BE005F2500 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE6902B5654BE005F2500 /* MapViewController.swift */; };
 		ED6FE6932B565684005F2500 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE6922B565684005F2500 /* ScanViewController.swift */; };
+		ED6FE6952B5657C6005F2500 /* WindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE6942B5657C6005F2500 /* WindowViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		ED6FE68E2B56540E005F2500 /* FlatMapLatestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatMapLatestViewController.swift; sourceTree = "<group>"; };
 		ED6FE6902B5654BE005F2500 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		ED6FE6922B565684005F2500 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
+		ED6FE6942B5657C6005F2500 /* WindowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				ED6FE68E2B56540E005F2500 /* FlatMapLatestViewController.swift */,
 				ED6FE6902B5654BE005F2500 /* MapViewController.swift */,
 				ED6FE6922B565684005F2500 /* ScanViewController.swift */,
+				ED6FE6942B5657C6005F2500 /* WindowViewController.swift */,
 			);
 			path = TransformingObservables;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				ED3C0B032B54FD6E00368095 /* FilteringObservablesViewController.swift in Sources */,
 				ED583E2E2B54D37400F38B9A /* SceneDelegate.swift in Sources */,
 				ED3D2D602B5624F000B34E72 /* FlatMapViewController.swift in Sources */,
+				ED6FE6952B5657C6005F2500 /* WindowViewController.swift in Sources */,
 				ED3D2D532B5611B500B34E72 /* TakeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
