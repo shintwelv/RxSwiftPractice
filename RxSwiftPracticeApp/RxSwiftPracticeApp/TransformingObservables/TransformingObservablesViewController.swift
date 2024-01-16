@@ -13,7 +13,8 @@ class TransformingObservablesViewController: ButtonListViewController {
         get {
             [
                 ("Buffer", #selector(routeToBuffer)),
-                ("FlatMap", #selector(routeToFlatMap))
+                ("FlatMap", #selector(routeToFlatMap)),
+                ("FlatMapFirst", #selector(routeToFlatMapFirst)),
             ]
         }
     }
@@ -31,6 +32,11 @@ class TransformingObservablesViewController: ButtonListViewController {
     
     @objc private func routeToFlatMap(_ button: UIButton) {
         let vc = FlatMapViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func routeToFlatMapFirst(_ button: UIButton) {
+        let vc = FlatMapFirstViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
