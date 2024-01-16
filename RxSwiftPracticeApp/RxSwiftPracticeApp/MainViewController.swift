@@ -12,7 +12,8 @@ class MainViewController: ButtonListViewController {
     override var buttons: [(String, Selector)] {
         get {
             [
-                ("FilteringObservables", #selector(routeToFilteringObservables))
+                ("FilteringObservables", #selector(routeToFilteringObservables)),
+                ("TransformingObservables", #selector(routeToTransformingObservables))
             ]
         }
     }
@@ -25,6 +26,11 @@ class MainViewController: ButtonListViewController {
     
     @objc private func routeToFilteringObservables(_ button: UIButton) {
         let vc = FilteringObservablesViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func routeToTransformingObservables(_ button: UIButton) {
+        let vc = TransformingObservablesViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
