@@ -13,7 +13,8 @@ class MainViewController: ButtonListViewController {
         get {
             [
                 ("FilteringObservables", #selector(routeToFilteringObservables)),
-                ("TransformingObservables", #selector(routeToTransformingObservables))
+                ("TransformingObservables", #selector(routeToTransformingObservables)),
+                ("CombiningObservables", #selector(routeToTransformingObservables))
             ]
         }
     }
@@ -31,6 +32,11 @@ class MainViewController: ButtonListViewController {
     
     @objc private func routeToTransformingObservables(_ button: UIButton) {
         let vc = TransformingObservablesViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func routeToCombiningObservables(_ button: UIButton) {
+        let vc = CombiningObservablesViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

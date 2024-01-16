@@ -36,6 +36,7 @@
 		ED6FE6912B5654BE005F2500 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE6902B5654BE005F2500 /* MapViewController.swift */; };
 		ED6FE6932B565684005F2500 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE6922B565684005F2500 /* ScanViewController.swift */; };
 		ED6FE6952B5657C6005F2500 /* WindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE6942B5657C6005F2500 /* WindowViewController.swift */; };
+		ED6FE6982B566244005F2500 /* CombiningObservablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE6972B566244005F2500 /* CombiningObservablesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		ED6FE6902B5654BE005F2500 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		ED6FE6922B565684005F2500 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		ED6FE6942B5657C6005F2500 /* WindowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowViewController.swift; sourceTree = "<group>"; };
+		ED6FE6972B566244005F2500 /* CombiningObservablesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombiningObservablesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 		ED583E2A2B54D37400F38B9A /* RxSwiftPracticeApp */ = {
 			isa = PBXGroup;
 			children = (
+				ED6FE6962B566231005F2500 /* CombiningObservables */,
 				ED3D2D5A2B56210000B34E72 /* TransformingObservables */,
 				ED3C0B012B54FD5900368095 /* FilteringObservables */,
 				ED583E2B2B54D37400F38B9A /* AppDelegate.swift */,
@@ -146,6 +149,14 @@
 				ED583E392B54D37500F38B9A /* Info.plist */,
 			);
 			path = RxSwiftPracticeApp;
+			sourceTree = "<group>";
+		};
+		ED6FE6962B566231005F2500 /* CombiningObservables */ = {
+			isa = PBXGroup;
+			children = (
+				ED6FE6972B566244005F2500 /* CombiningObservablesViewController.swift */,
+			);
+			path = CombiningObservables;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +254,7 @@
 				ED583E2C2B54D37400F38B9A /* AppDelegate.swift in Sources */,
 				ED6FE6912B5654BE005F2500 /* MapViewController.swift in Sources */,
 				ED3D2D4D2B560CBA00B34E72 /* ElementAtViewController.swift in Sources */,
+				ED6FE6982B566244005F2500 /* CombiningObservablesViewController.swift in Sources */,
 				ED3C0B072B55080F00368095 /* DebounceViewController.swift in Sources */,
 				ED3D2D5E2B56215700B34E72 /* BufferViewController.swift in Sources */,
 				ED3C0B032B54FD6E00368095 /* FilteringObservablesViewController.swift in Sources */,
