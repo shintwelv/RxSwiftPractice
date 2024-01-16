@@ -20,6 +20,7 @@
 		ED3D2D572B5616CB00B34E72 /* SingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3D2D562B5616CB00B34E72 /* SingleViewController.swift */; };
 		ED3D2D592B561F5200B34E72 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3D2D582B561F5200B34E72 /* SampleViewController.swift */; };
 		ED3D2D5C2B56211700B34E72 /* TransformingObservablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3D2D5B2B56211700B34E72 /* TransformingObservablesViewController.swift */; };
+		ED3D2D5E2B56215700B34E72 /* BufferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3D2D5D2B56215700B34E72 /* BufferViewController.swift */; };
 		ED583E2C2B54D37400F38B9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED583E2B2B54D37400F38B9A /* AppDelegate.swift */; };
 		ED583E2E2B54D37400F38B9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED583E2D2B54D37400F38B9A /* SceneDelegate.swift */; };
 		ED583E352B54D37500F38B9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED583E342B54D37500F38B9A /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		ED3D2D562B5616CB00B34E72 /* SingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewController.swift; sourceTree = "<group>"; };
 		ED3D2D582B561F5200B34E72 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
 		ED3D2D5B2B56211700B34E72 /* TransformingObservablesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformingObservablesViewController.swift; sourceTree = "<group>"; };
+		ED3D2D5D2B56215700B34E72 /* BufferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferViewController.swift; sourceTree = "<group>"; };
 		ED583E282B54D37400F38B9A /* RxSwiftPracticeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftPracticeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED583E2B2B54D37400F38B9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED583E2D2B54D37400F38B9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				ED3D2D5B2B56211700B34E72 /* TransformingObservablesViewController.swift */,
+				ED3D2D5D2B56215700B34E72 /* BufferViewController.swift */,
 			);
 			path = TransformingObservables;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				ED583E2C2B54D37400F38B9A /* AppDelegate.swift in Sources */,
 				ED3D2D4D2B560CBA00B34E72 /* ElementAtViewController.swift in Sources */,
 				ED3C0B072B55080F00368095 /* DebounceViewController.swift in Sources */,
+				ED3D2D5E2B56215700B34E72 /* BufferViewController.swift in Sources */,
 				ED3C0B032B54FD6E00368095 /* FilteringObservablesViewController.swift in Sources */,
 				ED583E2E2B54D37400F38B9A /* SceneDelegate.swift in Sources */,
 				ED3D2D532B5611B500B34E72 /* TakeViewController.swift in Sources */,

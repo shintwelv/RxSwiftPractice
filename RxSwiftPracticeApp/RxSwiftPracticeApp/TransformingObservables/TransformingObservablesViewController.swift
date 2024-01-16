@@ -12,6 +12,7 @@ class TransformingObservablesViewController: ButtonListViewController {
     override var buttons: [(String, Selector)] {
         get {
             [
+                ("Buffer", #selector(routeToBuffer))
             ]
         }
     }
@@ -20,5 +21,10 @@ class TransformingObservablesViewController: ButtonListViewController {
         super.viewDidLoad()
         
         self.navigationItem.title = "Transforming Observables"
+    }
+    
+    @objc private func routeToBuffer(_ button: UIButton) {
+        let vc = BufferViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
