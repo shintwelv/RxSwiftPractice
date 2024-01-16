@@ -15,6 +15,7 @@ class FilteringObservablesViewController: ButtonListViewController {
                 ("Debounce", #selector(routeToDebounceVC)),
                 ("Throttle", #selector(routeToThrottleVC)),
                 ("DistinctUntilChanged", #selector(routeToDistinctUntilChanged)),
+                ("ElementAt", #selector(routeToElementAt)),
             ]
         }
     }
@@ -37,6 +38,11 @@ class FilteringObservablesViewController: ButtonListViewController {
     
     @objc private func routeToDistinctUntilChanged(_ button: UIButton) {
         let vc = DistinctUntilChangedViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func routeToElementAt(_ button: UIButton) {
+        let vc = ElementAtViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
