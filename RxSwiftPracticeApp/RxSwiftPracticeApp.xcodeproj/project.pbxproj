@@ -34,6 +34,7 @@
 		ED583E492B54D43C00F38B9A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED583E482B54D43C00F38B9A /* MainViewController.swift */; };
 		ED6FE68F2B56540E005F2500 /* FlatMapLatestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE68E2B56540E005F2500 /* FlatMapLatestViewController.swift */; };
 		ED6FE6912B5654BE005F2500 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE6902B5654BE005F2500 /* MapViewController.swift */; };
+		ED6FE6932B565684005F2500 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE6922B565684005F2500 /* ScanViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		ED583E482B54D43C00F38B9A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		ED6FE68E2B56540E005F2500 /* FlatMapLatestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatMapLatestViewController.swift; sourceTree = "<group>"; };
 		ED6FE6902B5654BE005F2500 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		ED6FE6922B565684005F2500 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				ED3D2D612B562D7D00B34E72 /* FlatMapFirstViewController.swift */,
 				ED6FE68E2B56540E005F2500 /* FlatMapLatestViewController.swift */,
 				ED6FE6902B5654BE005F2500 /* MapViewController.swift */,
+				ED6FE6922B565684005F2500 /* ScanViewController.swift */,
 			);
 			path = TransformingObservables;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				ED3C0B092B55189B00368095 /* ThrottleViewController.swift in Sources */,
 				ED3D2D512B5610FC00B34E72 /* SkipViewController.swift in Sources */,
 				ED583E492B54D43C00F38B9A /* MainViewController.swift in Sources */,
+				ED6FE6932B565684005F2500 /* ScanViewController.swift in Sources */,
 				ED6FE68F2B56540E005F2500 /* FlatMapLatestViewController.swift in Sources */,
 				ED3D2D4B2B56082700B34E72 /* DistinctUntilChangedViewController.swift in Sources */,
 				ED3D2D572B5616CB00B34E72 /* SingleViewController.swift in Sources */,
