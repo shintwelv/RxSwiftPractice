@@ -16,6 +16,7 @@ class TransformingObservablesViewController: ButtonListViewController {
                 ("FlatMap", #selector(routeToFlatMap)),
                 ("FlatMapFirst", #selector(routeToFlatMapFirst)),
                 ("FlatMapLatest", #selector(routeToFlatMapLatest)),
+                ("Map", #selector(routeToMap)),
             ]
         }
     }
@@ -43,6 +44,11 @@ class TransformingObservablesViewController: ButtonListViewController {
     
     @objc private func routeToFlatMapLatest(_ button: UIButton) {
         let vc = FlatMapLatestViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func routeToMap(_ button: UIButton) {
+        let vc = MapViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

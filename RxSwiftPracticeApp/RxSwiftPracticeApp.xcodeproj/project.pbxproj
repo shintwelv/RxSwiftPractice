@@ -33,6 +33,7 @@
 		ED583E472B54D3C700F38B9A /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ED583E462B54D3C700F38B9A /* RxSwift */; };
 		ED583E492B54D43C00F38B9A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED583E482B54D43C00F38B9A /* MainViewController.swift */; };
 		ED6FE68F2B56540E005F2500 /* FlatMapLatestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE68E2B56540E005F2500 /* FlatMapLatestViewController.swift */; };
+		ED6FE6912B5654BE005F2500 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE6902B5654BE005F2500 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		ED583E392B54D37500F38B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED583E482B54D43C00F38B9A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		ED6FE68E2B56540E005F2500 /* FlatMapLatestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatMapLatestViewController.swift; sourceTree = "<group>"; };
+		ED6FE6902B5654BE005F2500 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				ED3D2D5F2B5624F000B34E72 /* FlatMapViewController.swift */,
 				ED3D2D612B562D7D00B34E72 /* FlatMapFirstViewController.swift */,
 				ED6FE68E2B56540E005F2500 /* FlatMapLatestViewController.swift */,
+				ED6FE6902B5654BE005F2500 /* MapViewController.swift */,
 			);
 			path = TransformingObservables;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				ED3D2D4F2B560EBD00B34E72 /* FilterViewController.swift in Sources */,
 				ED3D2D622B562D7D00B34E72 /* FlatMapFirstViewController.swift in Sources */,
 				ED583E2C2B54D37400F38B9A /* AppDelegate.swift in Sources */,
+				ED6FE6912B5654BE005F2500 /* MapViewController.swift in Sources */,
 				ED3D2D4D2B560CBA00B34E72 /* ElementAtViewController.swift in Sources */,
 				ED3C0B072B55080F00368095 /* DebounceViewController.swift in Sources */,
 				ED3D2D5E2B56215700B34E72 /* BufferViewController.swift in Sources */,
