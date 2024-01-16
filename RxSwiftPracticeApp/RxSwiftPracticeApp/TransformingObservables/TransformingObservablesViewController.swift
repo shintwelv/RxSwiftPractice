@@ -12,7 +12,8 @@ class TransformingObservablesViewController: ButtonListViewController {
     override var buttons: [(String, Selector)] {
         get {
             [
-                ("Buffer", #selector(routeToBuffer))
+                ("Buffer", #selector(routeToBuffer)),
+                ("FlatMap", #selector(routeToFlatMap))
             ]
         }
     }
@@ -25,6 +26,11 @@ class TransformingObservablesViewController: ButtonListViewController {
     
     @objc private func routeToBuffer(_ button: UIButton) {
         let vc = BufferViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func routeToFlatMap(_ button: UIButton) {
+        let vc = FlatMapViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
