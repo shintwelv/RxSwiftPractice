@@ -21,6 +21,7 @@ class FilteringObservablesViewController: ButtonListViewController {
                 ("Take", #selector(routeToTake)),
                 ("TakeLast", #selector(routeToTakeLast)),
                 ("Single", #selector(routeToSingle)),
+                ("Sample", #selector(routeToSample)),
             ]
         }
     }
@@ -73,6 +74,11 @@ class FilteringObservablesViewController: ButtonListViewController {
     
     @objc private func routeToSingle(_ button: UIButton) {
         let vc = SingleViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func routeToSample(_ button: UIButton) {
+        let vc = SampleViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
