@@ -13,6 +13,7 @@ class CombiningObservablesViewController: ButtonListViewController {
         get {
             [
                 ("Merge", #selector(routeToMerge)),
+                ("Zip", #selector(routeToZip)),
             ]
         }
     }
@@ -25,6 +26,11 @@ class CombiningObservablesViewController: ButtonListViewController {
     
     @objc private func routeToMerge(_ button: UIButton) {
         let vc = MergeViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func routeToZip(_ button: UIButton) {
+        let vc = ZipViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
