@@ -12,6 +12,7 @@ class CombiningObservablesViewController: ButtonListViewController {
     override var buttons: [(String, Selector)] {
         get {
             [
+                ("Merge", #selector(routeToMerge)),
             ]
         }
     }
@@ -20,5 +21,10 @@ class CombiningObservablesViewController: ButtonListViewController {
         super.viewDidLoad()
         
         self.navigationItem.title = "Combining Observables"
+    }
+    
+    @objc private func routeToMerge(_ button: UIButton) {
+        let vc = MergeViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }

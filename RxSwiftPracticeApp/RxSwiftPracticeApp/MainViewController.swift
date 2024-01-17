@@ -14,7 +14,7 @@ class MainViewController: ButtonListViewController {
             [
                 ("FilteringObservables", #selector(routeToFilteringObservables)),
                 ("TransformingObservables", #selector(routeToTransformingObservables)),
-                ("CombiningObservables", #selector(routeToTransformingObservables))
+                ("CombiningObservables", #selector(routeToCombiningObservables))
             ]
         }
     }

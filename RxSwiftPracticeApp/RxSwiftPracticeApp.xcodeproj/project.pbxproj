@@ -37,6 +37,7 @@
 		ED6FE6932B565684005F2500 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE6922B565684005F2500 /* ScanViewController.swift */; };
 		ED6FE6952B5657C6005F2500 /* WindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE6942B5657C6005F2500 /* WindowViewController.swift */; };
 		ED6FE6982B566244005F2500 /* CombiningObservablesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE6972B566244005F2500 /* CombiningObservablesViewController.swift */; };
+		ED6FE69A2B5663FA005F2500 /* MergeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE6992B5663FA005F2500 /* MergeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		ED6FE6922B565684005F2500 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		ED6FE6942B5657C6005F2500 /* WindowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowViewController.swift; sourceTree = "<group>"; };
 		ED6FE6972B566244005F2500 /* CombiningObservablesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombiningObservablesViewController.swift; sourceTree = "<group>"; };
+		ED6FE6992B5663FA005F2500 /* MergeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				ED6FE6972B566244005F2500 /* CombiningObservablesViewController.swift */,
+				ED6FE6992B5663FA005F2500 /* MergeViewController.swift */,
 			);
 			path = CombiningObservables;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				ED6FE68F2B56540E005F2500 /* FlatMapLatestViewController.swift in Sources */,
 				ED3D2D4B2B56082700B34E72 /* DistinctUntilChangedViewController.swift in Sources */,
 				ED3D2D572B5616CB00B34E72 /* SingleViewController.swift in Sources */,
+				ED6FE69A2B5663FA005F2500 /* MergeViewController.swift in Sources */,
 				ED3D2D592B561F5200B34E72 /* SampleViewController.swift in Sources */,
 				ED3D2D552B5612E900B34E72 /* TakeLastViewController.swift in Sources */,
 				ED3D2D5C2B56211700B34E72 /* TransformingObservablesViewController.swift in Sources */,
