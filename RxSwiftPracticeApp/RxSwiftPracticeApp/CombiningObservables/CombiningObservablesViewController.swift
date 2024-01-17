@@ -14,6 +14,7 @@ class CombiningObservablesViewController: ButtonListViewController {
             [
                 ("Merge", #selector(routeToMerge)),
                 ("Zip", #selector(routeToZip)),
+                ("StartWith", #selector(routeToStartWith)),
             ]
         }
     }
@@ -31,6 +32,11 @@ class CombiningObservablesViewController: ButtonListViewController {
     
     @objc private func routeToZip(_ button: UIButton) {
         let vc = ZipViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func routeToStartWith(_ button: UIButton) {
+        let vc = StartWithViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
