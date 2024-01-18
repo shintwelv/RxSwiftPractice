@@ -40,6 +40,7 @@
 		ED6FE69A2B5663FA005F2500 /* MergeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE6992B5663FA005F2500 /* MergeViewController.swift */; };
 		ED918B772B57D158004512D5 /* ZipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED918B762B57D158004512D5 /* ZipViewController.swift */; };
 		ED918B792B589AF6004512D5 /* StartWithViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED918B782B589AF6004512D5 /* StartWithViewController.swift */; };
+		ED918B7B2B590C55004512D5 /* SwitchLatestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED918B7A2B590C55004512D5 /* SwitchLatestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		ED6FE6992B5663FA005F2500 /* MergeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeViewController.swift; sourceTree = "<group>"; };
 		ED918B762B57D158004512D5 /* ZipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipViewController.swift; sourceTree = "<group>"; };
 		ED918B782B589AF6004512D5 /* StartWithViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWithViewController.swift; sourceTree = "<group>"; };
+		ED918B7A2B590C55004512D5 /* SwitchLatestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchLatestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				ED6FE6992B5663FA005F2500 /* MergeViewController.swift */,
 				ED918B762B57D158004512D5 /* ZipViewController.swift */,
 				ED918B782B589AF6004512D5 /* StartWithViewController.swift */,
+				ED918B7A2B590C55004512D5 /* SwitchLatestViewController.swift */,
 			);
 			path = CombiningObservables;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 			files = (
 				ED3C0B092B55189B00368095 /* ThrottleViewController.swift in Sources */,
 				ED3D2D512B5610FC00B34E72 /* SkipViewController.swift in Sources */,
+				ED918B7B2B590C55004512D5 /* SwitchLatestViewController.swift in Sources */,
 				ED583E492B54D43C00F38B9A /* MainViewController.swift in Sources */,
 				ED6FE6932B565684005F2500 /* ScanViewController.swift in Sources */,
 				ED6FE68F2B56540E005F2500 /* FlatMapLatestViewController.swift in Sources */,
