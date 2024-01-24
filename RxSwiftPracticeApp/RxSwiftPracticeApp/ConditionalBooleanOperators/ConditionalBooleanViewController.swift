@@ -12,6 +12,7 @@ class ConditionalBooleanViewController: ButtonListViewController {
     override var buttons: [(String, Selector)] {
         get {
             [
+                ("amb", #selector(routeToAmb)),
             ]
         }
     }
@@ -20,5 +21,10 @@ class ConditionalBooleanViewController: ButtonListViewController {
         super.viewDidLoad()
         
         self.navigationItem.title = "Cond..."
+    }
+    
+    @objc private func routeToAmb() {
+        let vc = AmbViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
