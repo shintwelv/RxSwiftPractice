@@ -16,6 +16,7 @@ class CombiningObservablesViewController: ButtonListViewController {
                 ("Zip", #selector(routeToZip)),
                 ("StartWith", #selector(routeToStartWith)),
                 ("SwitchLatest", #selector(routeToSwitchLatest)),
+                ("CombineLatest", #selector(routeToCombineLatest)),
             ]
         }
     }
@@ -43,6 +44,11 @@ class CombiningObservablesViewController: ButtonListViewController {
     
     @objc private func routeToSwitchLatest(_ button: UIButton) {
         let vc = SwitchLatestViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func routeToCombineLatest(_ button: UIButton) {
+        let vc = CombineLatestViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

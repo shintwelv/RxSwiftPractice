@@ -32,6 +32,7 @@
 		ED583E452B54D3C700F38B9A /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = ED583E442B54D3C700F38B9A /* RxRelay */; };
 		ED583E472B54D3C700F38B9A /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ED583E462B54D3C700F38B9A /* RxSwift */; };
 		ED583E492B54D43C00F38B9A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED583E482B54D43C00F38B9A /* MainViewController.swift */; };
+		ED6D51E02B60A03A00FF6D74 /* CombineLatestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D51DF2B60A03A00FF6D74 /* CombineLatestViewController.swift */; };
 		ED6FE68F2B56540E005F2500 /* FlatMapLatestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE68E2B56540E005F2500 /* FlatMapLatestViewController.swift */; };
 		ED6FE6912B5654BE005F2500 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE6902B5654BE005F2500 /* MapViewController.swift */; };
 		ED6FE6932B565684005F2500 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE6922B565684005F2500 /* ScanViewController.swift */; };
@@ -67,6 +68,7 @@
 		ED583E372B54D37500F38B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED583E392B54D37500F38B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED583E482B54D43C00F38B9A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		ED6D51DF2B60A03A00FF6D74 /* CombineLatestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineLatestViewController.swift; sourceTree = "<group>"; };
 		ED6FE68E2B56540E005F2500 /* FlatMapLatestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatMapLatestViewController.swift; sourceTree = "<group>"; };
 		ED6FE6902B5654BE005F2500 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		ED6FE6922B565684005F2500 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				ED918B762B57D158004512D5 /* ZipViewController.swift */,
 				ED918B782B589AF6004512D5 /* StartWithViewController.swift */,
 				ED918B7A2B590C55004512D5 /* SwitchLatestViewController.swift */,
+				ED6D51DF2B60A03A00FF6D74 /* CombineLatestViewController.swift */,
 			);
 			path = CombiningObservables;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 			files = (
 				ED3C0B092B55189B00368095 /* ThrottleViewController.swift in Sources */,
 				ED3D2D512B5610FC00B34E72 /* SkipViewController.swift in Sources */,
+				ED6D51E02B60A03A00FF6D74 /* CombineLatestViewController.swift in Sources */,
 				ED918B7B2B590C55004512D5 /* SwitchLatestViewController.swift in Sources */,
 				ED583E492B54D43C00F38B9A /* MainViewController.swift in Sources */,
 				ED6FE6932B565684005F2500 /* ScanViewController.swift in Sources */,
