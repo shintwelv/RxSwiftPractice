@@ -35,6 +35,7 @@
 		ED6D51E02B60A03A00FF6D74 /* CombineLatestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D51DF2B60A03A00FF6D74 /* CombineLatestViewController.swift */; };
 		ED6D51E32B60A83600FF6D74 /* ConditionalBooleanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D51E22B60A83600FF6D74 /* ConditionalBooleanViewController.swift */; };
 		ED6D51E52B60AE5800FF6D74 /* AmbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D51E42B60AE5800FF6D74 /* AmbViewController.swift */; };
+		ED6D51E72B60B0E700FF6D74 /* SkipWhileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D51E62B60B0E700FF6D74 /* SkipWhileViewController.swift */; };
 		ED6FE68F2B56540E005F2500 /* FlatMapLatestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE68E2B56540E005F2500 /* FlatMapLatestViewController.swift */; };
 		ED6FE6912B5654BE005F2500 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE6902B5654BE005F2500 /* MapViewController.swift */; };
 		ED6FE6932B565684005F2500 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE6922B565684005F2500 /* ScanViewController.swift */; };
@@ -73,6 +74,7 @@
 		ED6D51DF2B60A03A00FF6D74 /* CombineLatestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineLatestViewController.swift; sourceTree = "<group>"; };
 		ED6D51E22B60A83600FF6D74 /* ConditionalBooleanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBooleanViewController.swift; sourceTree = "<group>"; };
 		ED6D51E42B60AE5800FF6D74 /* AmbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbViewController.swift; sourceTree = "<group>"; };
+		ED6D51E62B60B0E700FF6D74 /* SkipWhileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkipWhileViewController.swift; sourceTree = "<group>"; };
 		ED6FE68E2B56540E005F2500 /* FlatMapLatestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatMapLatestViewController.swift; sourceTree = "<group>"; };
 		ED6FE6902B5654BE005F2500 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		ED6FE6922B565684005F2500 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 			children = (
 				ED6D51E22B60A83600FF6D74 /* ConditionalBooleanViewController.swift */,
 				ED6D51E42B60AE5800FF6D74 /* AmbViewController.swift */,
+				ED6D51E62B60B0E700FF6D74 /* SkipWhileViewController.swift */,
 			);
 			path = ConditionalBooleanOperators;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				ED583E492B54D43C00F38B9A /* MainViewController.swift in Sources */,
 				ED6FE6932B565684005F2500 /* ScanViewController.swift in Sources */,
 				ED6FE68F2B56540E005F2500 /* FlatMapLatestViewController.swift in Sources */,
+				ED6D51E72B60B0E700FF6D74 /* SkipWhileViewController.swift in Sources */,
 				ED3D2D4B2B56082700B34E72 /* DistinctUntilChangedViewController.swift in Sources */,
 				ED3D2D572B5616CB00B34E72 /* SingleViewController.swift in Sources */,
 				ED6FE69A2B5663FA005F2500 /* MergeViewController.swift in Sources */,
