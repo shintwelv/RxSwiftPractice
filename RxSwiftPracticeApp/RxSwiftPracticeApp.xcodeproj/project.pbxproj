@@ -33,6 +33,7 @@
 		ED583E472B54D3C700F38B9A /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ED583E462B54D3C700F38B9A /* RxSwift */; };
 		ED583E492B54D43C00F38B9A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED583E482B54D43C00F38B9A /* MainViewController.swift */; };
 		ED6D51E02B60A03A00FF6D74 /* CombineLatestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D51DF2B60A03A00FF6D74 /* CombineLatestViewController.swift */; };
+		ED6D51E32B60A83600FF6D74 /* ConditionalBooleanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D51E22B60A83600FF6D74 /* ConditionalBooleanViewController.swift */; };
 		ED6FE68F2B56540E005F2500 /* FlatMapLatestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE68E2B56540E005F2500 /* FlatMapLatestViewController.swift */; };
 		ED6FE6912B5654BE005F2500 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE6902B5654BE005F2500 /* MapViewController.swift */; };
 		ED6FE6932B565684005F2500 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FE6922B565684005F2500 /* ScanViewController.swift */; };
@@ -69,6 +70,7 @@
 		ED583E392B54D37500F38B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED583E482B54D43C00F38B9A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		ED6D51DF2B60A03A00FF6D74 /* CombineLatestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineLatestViewController.swift; sourceTree = "<group>"; };
+		ED6D51E22B60A83600FF6D74 /* ConditionalBooleanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBooleanViewController.swift; sourceTree = "<group>"; };
 		ED6FE68E2B56540E005F2500 /* FlatMapLatestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatMapLatestViewController.swift; sourceTree = "<group>"; };
 		ED6FE6902B5654BE005F2500 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		ED6FE6922B565684005F2500 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 		ED583E2A2B54D37400F38B9A /* RxSwiftPracticeApp */ = {
 			isa = PBXGroup;
 			children = (
+				ED6D51E12B60A80B00FF6D74 /* ConditionalBooleanOperators */,
 				ED6FE6962B566231005F2500 /* CombiningObservables */,
 				ED3D2D5A2B56210000B34E72 /* TransformingObservables */,
 				ED3C0B012B54FD5900368095 /* FilteringObservables */,
@@ -159,6 +162,14 @@
 				ED583E392B54D37500F38B9A /* Info.plist */,
 			);
 			path = RxSwiftPracticeApp;
+			sourceTree = "<group>";
+		};
+		ED6D51E12B60A80B00FF6D74 /* ConditionalBooleanOperators */ = {
+			isa = PBXGroup;
+			children = (
+				ED6D51E22B60A83600FF6D74 /* ConditionalBooleanViewController.swift */,
+			);
+			path = ConditionalBooleanOperators;
 			sourceTree = "<group>";
 		};
 		ED6FE6962B566231005F2500 /* CombiningObservables */ = {
@@ -263,6 +274,7 @@
 				ED3D2D4B2B56082700B34E72 /* DistinctUntilChangedViewController.swift in Sources */,
 				ED3D2D572B5616CB00B34E72 /* SingleViewController.swift in Sources */,
 				ED6FE69A2B5663FA005F2500 /* MergeViewController.swift in Sources */,
+				ED6D51E32B60A83600FF6D74 /* ConditionalBooleanViewController.swift in Sources */,
 				ED3D2D592B561F5200B34E72 /* SampleViewController.swift in Sources */,
 				ED3D2D552B5612E900B34E72 /* TakeLastViewController.swift in Sources */,
 				ED918B792B589AF6004512D5 /* StartWithViewController.swift in Sources */,

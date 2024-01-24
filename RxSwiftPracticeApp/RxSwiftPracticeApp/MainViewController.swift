@@ -14,7 +14,8 @@ class MainViewController: ButtonListViewController {
             [
                 ("FilteringObservables", #selector(routeToFilteringObservables)),
                 ("TransformingObservables", #selector(routeToTransformingObservables)),
-                ("CombiningObservables", #selector(routeToCombiningObservables))
+                ("CombiningObservables", #selector(routeToCombiningObservables)),
+                ("Conditional and Boolean Operators", #selector(routeToConditionalBooleanOperators)),
             ]
         }
     }
@@ -37,6 +38,11 @@ class MainViewController: ButtonListViewController {
     
     @objc private func routeToCombiningObservables(_ button: UIButton) {
         let vc = CombiningObservablesViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func routeToConditionalBooleanOperators(_ button: UIButton) {
+        let vc = ConditionalBooleanViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
