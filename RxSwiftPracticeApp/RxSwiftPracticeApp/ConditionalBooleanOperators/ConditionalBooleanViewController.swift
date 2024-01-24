@@ -14,6 +14,7 @@ class ConditionalBooleanViewController: ButtonListViewController {
             [
                 ("amb", #selector(routeToAmb)),
                 ("skipWhile", #selector(routeToSkipWhile)),
+                ("skipUntil", #selector(routeToSkipUntil)),
             ]
         }
     }
@@ -31,6 +32,11 @@ class ConditionalBooleanViewController: ButtonListViewController {
     
     @objc private func routeToSkipWhile() {
         let vc = SkipWhileViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func routeToSkipUntil() {
+        let vc = SkipUntilViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
