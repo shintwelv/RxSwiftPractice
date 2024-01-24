@@ -8,7 +8,7 @@
 import UIKit
 
 class MainViewController: ButtonListViewController {
-
+    
     override var buttons: [(String, Selector)] {
         get {
             [
@@ -16,6 +16,7 @@ class MainViewController: ButtonListViewController {
                 ("TransformingObservables", #selector(routeToTransformingObservables)),
                 ("CombiningObservables", #selector(routeToCombiningObservables)),
                 ("Conditional and Boolean Operators", #selector(routeToConditionalBooleanOperators)),
+                ("Mathematical and Aggregate Operators", #selector(routeToMathematicalAggregateOperators)),
             ]
         }
     }
@@ -43,6 +44,11 @@ class MainViewController: ButtonListViewController {
     
     @objc private func routeToConditionalBooleanOperators(_ button: UIButton) {
         let vc = ConditionalBooleanViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+
+    @objc private func routeToMathematicalAggregateOperators(_ button: UIButton) {
+        let vc = MathematicalAggregateViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
