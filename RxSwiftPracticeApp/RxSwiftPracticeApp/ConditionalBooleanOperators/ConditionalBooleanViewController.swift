@@ -16,6 +16,7 @@ class ConditionalBooleanViewController: ButtonListViewController {
                 ("skipWhile", #selector(routeToSkipWhile)),
                 ("skipUntil", #selector(routeToSkipUntil)),
                 ("takeWhile", #selector(routeToTakeWhile)),
+                ("takeUntil", #selector(routeToTakeUntil)),
             ]
         }
     }
@@ -43,6 +44,11 @@ class ConditionalBooleanViewController: ButtonListViewController {
     
     @objc private func routeToTakeWhile() {
         let vc = TakeWhileViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func routeToTakeUntil() {
+        let vc = TakeUntilViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
