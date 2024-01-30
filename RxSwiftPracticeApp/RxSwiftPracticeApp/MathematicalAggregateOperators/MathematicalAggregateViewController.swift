@@ -13,7 +13,8 @@ class MathematicalAggregateViewController: ButtonListViewController {
         get {
             [
                 ("concat", #selector(routeToConcat)),
-                ("reduce", #selector(routeToReduce))
+                ("reduce", #selector(routeToReduce)),
+                ("toArray", #selector(routeToToArray)),
             ]
         }
     }
@@ -31,6 +32,11 @@ class MathematicalAggregateViewController: ButtonListViewController {
     
     @objc private func routeToReduce() {
         let vc = ReduceViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func routeToToArray() {
+        let vc = ToArrayViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
