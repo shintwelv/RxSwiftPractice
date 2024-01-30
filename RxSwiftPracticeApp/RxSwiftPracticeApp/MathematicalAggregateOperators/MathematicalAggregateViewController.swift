@@ -12,7 +12,8 @@ class MathematicalAggregateViewController: ButtonListViewController {
     override var buttons: [(String, Selector)] {
         get {
             [
-                ("concat", #selector(routeToConcat))
+                ("concat", #selector(routeToConcat)),
+                ("reduce", #selector(routeToReduce))
             ]
         }
     }
@@ -25,6 +26,11 @@ class MathematicalAggregateViewController: ButtonListViewController {
     
     @objc private func routeToConcat() {
         let vc = ConcatViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @objc private func routeToReduce() {
+        let vc = ReduceViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

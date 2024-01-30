@@ -32,6 +32,7 @@
 		ED583E452B54D3C700F38B9A /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = ED583E442B54D3C700F38B9A /* RxRelay */; };
 		ED583E472B54D3C700F38B9A /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = ED583E462B54D3C700F38B9A /* RxSwift */; };
 		ED583E492B54D43C00F38B9A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED583E482B54D43C00F38B9A /* MainViewController.swift */; };
+		ED6C2ED92B688079004C4871 /* ReduceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6C2ED82B688079004C4871 /* ReduceViewController.swift */; };
 		ED6D51E02B60A03A00FF6D74 /* CombineLatestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D51DF2B60A03A00FF6D74 /* CombineLatestViewController.swift */; };
 		ED6D51E32B60A83600FF6D74 /* ConditionalBooleanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D51E22B60A83600FF6D74 /* ConditionalBooleanViewController.swift */; };
 		ED6D51E52B60AE5800FF6D74 /* AmbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6D51E42B60AE5800FF6D74 /* AmbViewController.swift */; };
@@ -76,6 +77,7 @@
 		ED583E372B54D37500F38B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED583E392B54D37500F38B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED583E482B54D43C00F38B9A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		ED6C2ED82B688079004C4871 /* ReduceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduceViewController.swift; sourceTree = "<group>"; };
 		ED6D51DF2B60A03A00FF6D74 /* CombineLatestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineLatestViewController.swift; sourceTree = "<group>"; };
 		ED6D51E22B60A83600FF6D74 /* ConditionalBooleanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalBooleanViewController.swift; sourceTree = "<group>"; };
 		ED6D51E42B60AE5800FF6D74 /* AmbViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbViewController.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 			children = (
 				ED6D51EF2B60EB3800FF6D74 /* MathematicalAggregateViewController.swift */,
 				ED6D51F12B60EBB900FF6D74 /* ConcatViewController.swift */,
+				ED6C2ED82B688079004C4871 /* ReduceViewController.swift */,
 			);
 			path = MathematicalAggregateOperators;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				ED3D2D5E2B56215700B34E72 /* BufferViewController.swift in Sources */,
 				ED3C0B032B54FD6E00368095 /* FilteringObservablesViewController.swift in Sources */,
 				ED583E2E2B54D37400F38B9A /* SceneDelegate.swift in Sources */,
+				ED6C2ED92B688079004C4871 /* ReduceViewController.swift in Sources */,
 				ED3D2D602B5624F000B34E72 /* FlatMapViewController.swift in Sources */,
 				ED6D51F02B60EB3800FF6D74 /* MathematicalAggregateViewController.swift in Sources */,
 				ED6FE6952B5657C6005F2500 /* WindowViewController.swift in Sources */,
